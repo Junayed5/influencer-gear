@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
-body{
-    margin: 0;
-    padding: 0;
-}
+
 /*---------------- 
 top section start 
 -----------------*/
@@ -61,7 +58,7 @@ top section end
 main section starts here 
 -----------------*/
 
-main{
+.collection{
     width: 20%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -171,6 +168,11 @@ optional section starts here
 optional section ends here 
 ---------------------------*/
 
+
+/*--------------------------- 
+footer section starts here 
+---------------------------*/
+
 footer{
     text-align: center;
     color: white;
@@ -194,5 +196,7 @@ footer p{
     margin: 20px 5px;
     
 }
+
+
 
 
