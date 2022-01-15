@@ -11,8 +11,8 @@ top section start
     flex-wrap: wrap;
     
 }
-h3{
-    margin-top: ;
+.influencer-title{
+    
     margin: 80px 110px 0 130px ;
     font-family: 'Open Sans', sans-serif;
 }
@@ -39,8 +39,10 @@ h3{
 }
 
 .influ-img img{
+    margin-top: -40px;
     margin-left: 100px;
     padding-bottom: 50px;
+    height: 350px;
 }
 
 .influ-btn .fa-arrow-right{
@@ -51,3 +53,45 @@ h3{
 /*---------------- 
 top section end 
 -----------------*/
+
+
+.thumbnail-title{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #3A3A3A;
+    margin: 10px 0;
+}
+.thumbnail-img img{
+    width: 250px;
+}
+
+.thumbnail{
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px black;
+    width: 250px;
+    padding: 10px;
+}
+.thumbnail-info h2{
+    font-size: 30px;
+    margin-bottom: -15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.thumbnail-info h3{
+    font-size: 25px;
+    margin-bottom: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.icon{
+    color: orange;
+    font-size: 10px;
+}
+.rating{
+    padding-left: 10px;
+    color: gray;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.desc{
+    color: #5E6366;
+}
