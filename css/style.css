@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
-
+body{
+    margin: 0;
+    padding: 0;
+}
 /*---------------- 
 top section start 
 -----------------*/
@@ -52,6 +55,10 @@ top section start
 
 /*---------------- 
 top section end 
+-----------------*/
+
+/*---------------- 
+main section starts here 
 -----------------*/
 
 main{
@@ -115,3 +122,77 @@ section .more-btn{
     margin-top: 20px;
     margin-right: 17%;
 }
+
+/*---------------- 
+main section ends here 
+-----------------*/
+
+
+/*--------------------------- 
+optional section starts here 
+---------------------------*/
+
+.optional{
+    width: 80%;
+    display: flex;
+    margin-top: 150px;
+    
+}
+.optional-img img{
+    height: 270px;
+    width: auto;
+}
+.optional-info h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+.optional-info{
+    padding-top: 40px;
+    margin-left: 50px;
+    width: 470px;
+}
+
+.optional-info p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+.optional-info button{
+    height: 35px;
+    width: 110px;
+    border: none;
+    background-color: #E02C6D;
+    color: #ffffff;
+}
+
+
+/*--------------------------- 
+optional section ends here 
+---------------------------*/
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #0A0826;
+    margin-top:80px;
+    padding: 50px 0;
+    height: 100px;
+}
+footer h1{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px;
+
+}
+footer p{
+    font-size: 15px;
+    margin: auto;
+}
+
+.social i{
+    margin: 20px 5px;
+    
+}
+
+
